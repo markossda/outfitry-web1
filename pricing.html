@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Outfitry | AI Outfit Generator</title>
+    <meta name="description"
+        content="Outfitry pricing: Free tier with 10 try-ons, Monthly $4.99 for 400 try-ons, Yearly $34.99 for 10,000 try-ons.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://outfitry.app/pricing.html">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://outfitry.app/pricing.html">
+    <meta property="og:title" content="Pricing - Outfitry AI Outfit Generator">
+    <meta property="og:description" content="Monthly $4.99 for 400 try-ons. Yearly $34.99 for 10,000 try-ons.">
+    <meta property="og:image" content="https://outfitry.app/assets/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="icon" type="image/png" href="/assets/outfitry.png">
+    <style>
+        /* Dark Gradient Pricing Styles */
+        .pricing-section {
+            padding: var(--space-20) 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pricing-section__header {
+            text-align: center;
+            margin-bottom: var(--space-12);
+        }
+
+        .pricing-section__title {
+            font-size: 42px;
+            font-weight: 600;
+            letter-spacing: -0.03em;
+            margin-bottom: var(--space-4);
+        }
+
+        .pricing-section__subtitle {
+            font-size: 17px;
+            color: var(--text-muted);
+        }
+
+        /* Pricing Cards Grid */
+        .pricing-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-6);
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 900px) {
+            .pricing-cards {
+                grid-template-columns: 1fr;
+                max-width: 400px;
+            }
+        }
+
+        /* Gradient Card */
+        .gradient-card {
+            position: relative;
+            background: linear-gradient(135deg, rgba(20, 20, 20, 0.8) 0%, rgba(30, 30, 30, 0.9) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: var(--radius-xl);
+            padding: var(--space-8);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+
+        .gradient-card:hover {
+            border-color: rgba(255, 255, 255, 0.15);
+            transform: translateY(-4px);
+        }
+
+        /* Popular Card */
+        .gradient-card--popular {
+            background: linear-gradient(135deg, rgba(30, 30, 30, 0.9) 0%, rgba(50, 50, 50, 0.95) 100%);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .gradient-card--popular::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+        }
+
+        .gradient-card__badge {
+            position: absolute;
+            top: var(--space-4);
+            right: var(--space-4);
+            padding: 4px 10px;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 100px;
+            color: var(--text);
+        }
+
+        /* Card Header */
+        .gradient-card__header {
+            text-align: center;
+            padding-bottom: var(--space-6);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            margin-bottom: var(--space-6);
+        }
+
+        .gradient-card__tier {
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--text);
+            margin-bottom: var(--space-5);
+        }
+
+        .gradient-card__price {
+            font-size: 42px;
+            font-weight: 600;
+            color: var(--text);
+            line-height: 1;
+            letter-spacing: -0.02em;
+            margin-bottom: var(--space-2);
+        }
+
+        .gradient-card__period {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .gradient-card__best-for {
+            font-size: 13px;
+            background: linear-gradient(135deg, #a1a1a1 0%, #6b6b6b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-top: var(--space-3);
+        }
+
+        /* Benefits List */
+        .gradient-card__benefits {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            flex: 1;
+            padding-bottom: var(--space-8);
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            padding: var(--space-2) 0;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .benefit-item__icon {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .benefit-item__icon--check {
+            background: var(--text);
+            color: var(--bg);
+        }
+
+        .benefit-item__icon--x {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-muted);
+        }
+
+        .benefit-item__icon svg {
+            width: 12px;
+            height: 12px;
+        }
+
+        .benefit-item--disabled {
+            color: var(--text-muted);
+            opacity: 0.6;
+        }
+
+        /* CTA Button */
+        .gradient-card__cta {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-2);
+            padding: 14px 24px;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .gradient-card__cta--primary {
+            background: var(--text);
+            color: var(--bg);
+            border: 1px solid var(--text);
+        }
+
+        .gradient-card__cta--primary:hover {
+            background: rgba(255, 255, 255, 0.9);
+            opacity: 1;
+        }
+
+        .gradient-card__cta--ghost {
+            background: transparent;
+            color: var(--text);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .gradient-card__cta--ghost:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.25);
+            opacity: 1;
+        }
+
+        /* FAQ Section */
+        .pricing-faq {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: var(--space-16) var(--space-6) var(--space-12);
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="/" class="header__logo"><img src="/assets/outfitry.png" alt="Outfitry">Outfitry</a>
+            <nav class="nav">
+                <ul class="nav__list" id="nav-list">
+                    <li><a href="/" class="nav__link">Home</a></li>
+                    <li><a href="/features.html" class="nav__link">Features</a></li>
+                    <li><a href="/pricing.html" class="nav__link nav__link--active">Pricing</a></li>
+                    <li><a href="/how-it-works.html" class="nav__link">How It Works</a></li>
+                    <li><a href="/faq.html" class="nav__link">FAQ</a></li>
+                    <li><a href="/blog/" class="nav__link">Blog</a></li>
+                </ul>
+                <a href="https://apps.apple.com/tr/app/outfitry/id6751058891" class="btn btn-primary btn-sm"
+                    target="_blank" rel="noopener">Download</a>
+                <button class="nav__toggle" aria-label="Menu"
+                    onclick="document.getElementById('nav-list').classList.toggle('is-open')"><span></span></button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Pricing Section -->
+        <section class="pricing-section">
+            <div class="container">
+                <div class="pricing-section__header">
+                    <h1 class="pricing-section__title">Pricing</h1>
+                    <p class="pricing-section__subtitle">Use it for free to try, upgrade when you need more try-ons.</p>
+                </div>
+
+                <!-- Pricing Cards -->
+                <div class="pricing-cards">
+                    <!-- Free Tier -->
+                    <div class="gradient-card">
+                        <div class="gradient-card__header">
+                            <div class="gradient-card__tier">Free</div>
+                            <div class="gradient-card__price">$0</div>
+                            <div class="gradient-card__period">forever</div>
+                            <div class="gradient-card__best-for">Best for trying out</div>
+                        </div>
+
+                        <ul class="gradient-card__benefits">
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                10 outfit try-ons
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                2 style presets
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                Standard quality
+                            </li>
+                            <li class="benefit-item benefit-item--disabled">
+                                <span class="benefit-item__icon benefit-item__icon--x">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <line x1="18" y1="6" x2="6" y2="18" />
+                                        <line x1="6" y1="6" x2="18" y2="18" />
+                                    </svg>
+                                </span>
+                                HD exports
+                            </li>
+                            <li class="benefit-item benefit-item--disabled">
+                                <span class="benefit-item__icon benefit-item__icon--x">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <line x1="18" y1="6" x2="6" y2="18" />
+                                        <line x1="6" y1="6" x2="18" y2="18" />
+                                    </svg>
+                                </span>
+                                No watermark
+                            </li>
+                            <li class="benefit-item benefit-item--disabled">
+                                <span class="benefit-item__icon benefit-item__icon--x">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <line x1="18" y1="6" x2="6" y2="18" />
+                                        <line x1="6" y1="6" x2="18" y2="18" />
+                                    </svg>
+                                </span>
+                                Priority processing
+                            </li>
+                        </ul>
+
+                        <a href="https://apps.apple.com/tr/app/outfitry/id6751058891"
+                            class="gradient-card__cta gradient-card__cta--ghost" target="_blank" rel="noopener">
+                            Get started free
+                        </a>
+                    </div>
+
+                    <!-- Monthly (Pro) -->
+                    <div class="gradient-card gradient-card--popular">
+                        <span class="gradient-card__badge">Popular</span>
+                        <div class="gradient-card__header">
+                            <div class="gradient-card__tier">Monthly</div>
+                            <div class="gradient-card__price">$4.99</div>
+                            <div class="gradient-card__period">per month</div>
+                            <div class="gradient-card__best-for">Best for regular users</div>
+                        </div>
+
+                        <ul class="gradient-card__benefits">
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                400 outfit try-ons
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                All style presets
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                HD quality exports
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                No watermark
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                Priority processing
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                Cancel anytime
+                            </li>
+                        </ul>
+
+                        <a href="https://apps.apple.com/tr/app/outfitry/id6751058891"
+                            class="gradient-card__cta gradient-card__cta--primary" target="_blank" rel="noopener">
+                            Start monthly
+                        </a>
+                    </div>
+
+                    <!-- Yearly -->
+                    <div class="gradient-card">
+                        <span class="gradient-card__badge">Save 42%</span>
+                        <div class="gradient-card__header">
+                            <div class="gradient-card__tier">Yearly</div>
+                            <div class="gradient-card__price">$34.99</div>
+                            <div class="gradient-card__period">per year</div>
+                            <div class="gradient-card__best-for">Best for power users</div>
+                        </div>
+
+                        <ul class="gradient-card__benefits">
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                10,000 outfit try-ons
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                All style presets
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                HD quality exports
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                No watermark
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                Priority processing
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-item__icon benefit-item__icon--check">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                        <polyline points="20 6 9 17 4 12" />
+                                    </svg>
+                                </span>
+                                25x more try-ons
+                            </li>
+                        </ul>
+
+                        <a href="https://apps.apple.com/tr/app/outfitry/id6751058891"
+                            class="gradient-card__cta gradient-card__cta--ghost" target="_blank" rel="noopener">
+                            Start yearly
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="pricing-faq">
+            <div class="section-header">
+                <h2 class="section-header__title">Billing FAQ</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-item__question" onclick="this.parentElement.classList.toggle('is-open')">
+                        How does the try-on limit work?
+                        <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>Each outfit generation counts as one try-on. Monthly gives you 400 try-ons that reset each
+                            billing cycle. Yearly gives you 10,000 try-ons for the full year.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-item__question" onclick="this.parentElement.classList.toggle('is-open')">
+                        Can I switch between plans?
+                        <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>Yes, you can upgrade or downgrade anytime through Apple's subscription management.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-item__question" onclick="this.parentElement.classList.toggle('is-open')">
+                        How do I cancel?
+                        <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>Go to Settings → Apple ID → Subscriptions on your iPhone. Find Outfitry and tap Cancel.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <h2 class="cta-section__title">Ready to Transform Your Style?</h2>
+                <p class="cta-section__text">Download Outfitry and start exploring new looks today.</p>
+                <a href="https://apps.apple.com/tr/app/outfitry/id6751058891" class="btn btn-primary btn-lg"
+                    target="_blank" rel="noopener">Download on App Store</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="footer__brand">
+                    <a href="/" class="footer__logo">
+                        <img src="/assets/outfitry.png" alt="Outfitry">
+                        Outfitry
+                    </a>
+                    <p class="footer__desc">AI-powered outfit generator for iPhone. Upload a photo, choose a style,
+                        generate outfit variations in seconds.</p>
+                    <div class="footer__social">
+                        <a href="https://instagram.com/outfitryapp" class="footer__social-link" aria-label="Instagram"
+                            target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" />
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/outfitryapp" class="footer__social-link" aria-label="Twitter"
+                            target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/company/outfitry" class="footer__social-link"
+                            aria-label="LinkedIn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__sections">
+                    <div class="footer__section">
+                        <h4 class="footer__heading">Product</h4>
+                        <ul class="footer__list">
+                            <li><a href="/features.html">Features</a></li>
+                            <li><a href="/pricing.html">Pricing</a></li>
+                            <li><a href="/how-it-works.html">How It Works</a></li>
+                            <li><a href="https://apps.apple.com/tr/app/outfitry/id6751058891" target="_blank"
+                                    rel="noopener">Download</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h4 class="footer__heading">Resources</h4>
+                        <ul class="footer__list">
+                            <li><a href="/faq.html">FAQ</a></li>
+                            <li><a href="/blog/">Blog</a></li>
+                            <li><a href="/blog/ai-outfit-changer.html">AI Outfit Changer</a></li>
+                            <li><a href="/blog/virtual-try-on-ios.html">Virtual Try-On</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h4 class="footer__heading">Company</h4>
+                        <ul class="footer__list">
+                            <li><a href="/contact.html">Contact</a></li>
+                            <li><a href="mailto:support@outfitry.app">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__section">
+                        <h4 class="footer__heading">Legal</h4>
+                        <ul class="footer__list">
+                            <li><a href="/privacy.html">Privacy Policy</a></li>
+                            <li><a href="/terms.html">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2024 Outfitry. All rights reserved.</p>
+                <div class="footer__legal">
+                    <a href="/privacy.html">Privacy</a>
+                    <a href="/terms.html">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

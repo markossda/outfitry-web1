@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="50%" style="stop-color:#818cf8"/>
+      <stop offset="100%" style="stop-color:#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Pattern decoration -->
+  <circle cx="100" cy="100" r="80" fill="white" opacity="0.1"/>
+  <circle cx="1100" cy="530" r="100" fill="white" opacity="0.1"/>
+  <circle cx="1050" cy="80" r="40" fill="white" opacity="0.1"/>
+  
+  <!-- App Icon -->
+  <g transform="translate(540, 160)">
+    <circle cx="60" cy="60" r="56" fill="white"/>
+    <path d="M60 25 L60 35 M45 40 Q40 40 40 50 L40 75 Q40 85 50 85 L70 85 Q80 85 80 75 L80 50 Q80 40 75 40 L60 35 L45 40" 
+          stroke="url(#bgGrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="85" cy="35" r="8" fill="url(#bgGrad)" opacity="0.9"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="600" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="white" text-anchor="middle">Outfitry</text>
+  <text x="600" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="500" fill="white" text-anchor="middle" opacity="0.9">AI Outfit Generator for iPhone</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="white" text-anchor="middle" opacity="0.8">Upload • Generate • Explore</text>
+  
+  <!-- App Store badge area -->
+  <rect x="500" y="520" width="200" height="60" rx="10" fill="white" opacity="0.2"/>
+  <text x="600" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="white" text-anchor="middle">Available on App Store</text>
+</svg>
