@@ -128,6 +128,42 @@ p {
   line-height: 1.7;
 }
 
+/* FAQ specific headings */
+.faq-category {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+  margin: var(--space-6) 0 var(--space-4);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  letter-spacing: -0.01em;
+}
+
+.faq-item__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: transparent;
+  color: var(--text-secondary);
+  padding: var(--space-3) 0;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.faq-item.is-open .faq-item__question,
+.faq-item__question:focus {
+  color: var(--text);
+}
+
+.faq-item__answer p {
+  color: var(--text-secondary);
+  padding: var(--space-3) 0 var(--space-6) 0;
+}
+
 a {
   color: var(--text);
   text-decoration: none;
@@ -954,6 +990,21 @@ section {
   margin: 0 auto;
 }
 
+.faq-category {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+  margin: var(--space-8) 0 var(--space-4) 0;
+  padding-top: var(--space-4);
+  border-top: 2px solid var(--primary);
+}
+
+.faq-category:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
 .faq-item {
   border-bottom: 1px solid var(--border);
 }
@@ -1499,4 +1550,56 @@ section {
 
 .table__x {
   color: var(--text-muted);
+}
+
+/* ========================================
+   GEO - Generative Engine Optimization
+   ======================================== */
+
+/* GEO Summary - AI engines extract this content */
+.geo-summary {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-elevated) 100%);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent-muted);
+  border-radius: var(--radius-md);
+  padding: var(--space-5) var(--space-6);
+  margin-bottom: var(--space-6);
+  max-width: 800px;
+}
+
+.geo-summary::before {
+  content: "Quick Answer";
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: var(--space-2);
+}
+
+/* Hero section specific geo-summary */
+.hero__content .geo-summary {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-left: 3px solid rgba(255, 255, 255, 0.2);
+  max-width: 100%;
+  margin-top: var(--space-4);
+}
+
+/* Section header specific geo-summary */
+.section-header .geo-summary {
+  margin: var(--space-4) auto var(--space-6);
+  text-align: left;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .geo-summary {
+    font-size: 14px;
+    padding: var(--space-4) var(--space-5);
+  }
 }
