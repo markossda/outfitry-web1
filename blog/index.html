@@ -18,6 +18,77 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="/assets/styles.css">
     <link rel="icon" type="image/png" href="/assets/outfitry.png">
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://outfitry.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://outfitry.app/blog/"
+        }
+      ]
+    }
+    </script>
+    <!-- CollectionPage Schema for Blog -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Outfitry Blog - AI Fashion & Style Tips",
+      "description": "Tips, guides, and insights on AI fashion technology, virtual try-on, and outfit generation for iPhone users.",
+      "url": "https://outfitry.app/blog/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Outfitry",
+        "logo": "https://outfitry.app/assets/outfitry.png"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "https://outfitry.app/blog/best-ai-outfit-apps-2025.html",
+            "name": "Best AI Outfit Apps 2025"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "https://outfitry.app/blog/ai-fashion-technology-explained.html",
+            "name": "AI Fashion Technology Explained"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "https://outfitry.app/blog/perfect-photos-ai-outfit.html",
+            "name": "Perfect Photos for AI Outfit Generation"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "https://outfitry.app/blog/ai-outfit-changer.html",
+            "name": "AI Outfit Changer: How It Works"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "https://outfitry.app/blog/virtual-try-on-ios.html",
+            "name": "Virtual Try-On on iPhone"
+          }
+        ]
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -50,6 +121,8 @@
                         class="breadcrumb__current">Blog</span></nav>
                 <div class="section-header">
                     <h1 class="section-header__title">Blog</h1>
+                    <!-- GEO Summary -->
+                    <p class="geo-summary">The Outfitry blog covers AI fashion technology, virtual try-on guides, and style tips for iPhone users. Learn how AI outfit changers work, get the best results from outfit generation apps, and explore the latest trends in AI-powered fashion technology. All articles are written by the Outfitry team with hands-on experience in AI fashion apps.</p>
                     <p class="section-header__subtitle">Tips, guides, and insights on AI fashion technology.</p>
                 </div>
             </div>
@@ -58,6 +131,55 @@
         <section class="section--soft">
             <div class="container">
                 <div class="grid grid--2">
+                    <!-- Featured: Best AI Outfit Apps 2025 -->
+                    <article class="blog-card">
+                        <div class="blog-card__image">
+                            <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <div class="blog-card__content">
+                            <p class="blog-card__meta">January 2025 • 6 min read</p>
+                            <h2 class="blog-card__title"><a href="/blog/best-ai-outfit-apps-2025.html">Best AI Outfit Apps 2025: Top Virtual Try-On Apps</a></h2>
+                            <p class="blog-card__excerpt">Compare the best AI outfit changer apps for iPhone. Features, pricing, and which app is right for you.</p>
+                            <a href="/blog/best-ai-outfit-apps-2025.html" class="btn btn-ghost">Read article →</a>
+                        </div>
+                    </article>
+
+                    <!-- AI Fashion Technology Explained -->
+                    <article class="blog-card">
+                        <div class="blog-card__image">
+                            <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 16v-4M12 8h.01"/>
+                            </svg>
+                        </div>
+                        <div class="blog-card__content">
+                            <p class="blog-card__meta">January 2025 • 6 min read</p>
+                            <h2 class="blog-card__title"><a href="/blog/ai-fashion-technology-explained.html">AI Fashion Technology Explained</a></h2>
+                            <p class="blog-card__excerpt">A deep dive into how AI outfit changers and virtual try-on technology actually works.</p>
+                            <a href="/blog/ai-fashion-technology-explained.html" class="btn btn-ghost">Read article →</a>
+                        </div>
+                    </article>
+
+                    <!-- Perfect Photos Guide -->
+                    <article class="blog-card">
+                        <div class="blog-card__image">
+                            <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <polyline points="21 15 16 10 5 21"/>
+                            </svg>
+                        </div>
+                        <div class="blog-card__content">
+                            <p class="blog-card__meta">January 2025 • 5 min read</p>
+                            <h2 class="blog-card__title"><a href="/blog/perfect-photos-ai-outfit.html">How to Take Perfect Photos for AI</a></h2>
+                            <p class="blog-card__excerpt">Tips on lighting, poses, backgrounds, and camera settings for optimal AI outfit generation results.</p>
+                            <a href="/blog/perfect-photos-ai-outfit.html" class="btn btn-ghost">Read article →</a>
+                        </div>
+                    </article>
+
+                    <!-- AI Outfit Changer -->
                     <article class="blog-card">
                         <div class="blog-card__image">
                             <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
@@ -66,14 +188,13 @@
                         </div>
                         <div class="blog-card__content">
                             <p class="blog-card__meta">January 2024 • 5 min read</p>
-                            <h2 class="blog-card__title"><a href="/blog/ai-outfit-changer.html">AI Outfit Changer: How
-                                    It Works</a></h2>
-                            <p class="blog-card__excerpt">Learn how AI outfit changers work and best practices for
-                                getting great results on iOS.</p>
+                            <h2 class="blog-card__title"><a href="/blog/ai-outfit-changer.html">AI Outfit Changer: How It Works</a></h2>
+                            <p class="blog-card__excerpt">Learn how AI outfit changers work and best practices for getting great results on iOS.</p>
                             <a href="/blog/ai-outfit-changer.html" class="btn btn-ghost">Read article →</a>
                         </div>
                     </article>
 
+                    <!-- Virtual Try-On -->
                     <article class="blog-card">
                         <div class="blog-card__image">
                             <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
@@ -83,10 +204,8 @@
                         </div>
                         <div class="blog-card__content">
                             <p class="blog-card__meta">January 2024 • 4 min read</p>
-                            <h2 class="blog-card__title"><a href="/blog/virtual-try-on-ios.html">Virtual Try-On on
-                                    iPhone</a></h2>
-                            <p class="blog-card__excerpt">What virtual try-on technology is and how to use it for style
-                                exploration.</p>
+                            <h2 class="blog-card__title"><a href="/blog/virtual-try-on-ios.html">Virtual Try-On on iPhone</a></h2>
+                            <p class="blog-card__excerpt">What virtual try-on technology is and how to use it for style exploration.</p>
                             <a href="/blog/virtual-try-on-ios.html" class="btn btn-ghost">Read article →</a>
                         </div>
                     </article>

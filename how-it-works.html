@@ -18,6 +18,75 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="/assets/styles.css">
     <link rel="icon" type="image/png" href="/assets/outfitry.png">
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://outfitry.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How It Works",
+          "item": "https://outfitry.app/how-it-works.html"
+        }
+      ]
+    }
+    </script>
+    <!-- HowTo Schema for GEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Use Outfitry AI Outfit Generator",
+      "description": "Learn how to generate AI outfit variations with Outfitry on iPhone. Follow these 3 simple steps to explore new styles.",
+      "totalTime": "PT2M",
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "0"
+      },
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "iPhone with iOS 15 or later"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Outfitry app from App Store"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Upload Your Photo",
+          "text": "Take a new photo or select one from your camera roll. Full-body photos with good lighting work best for optimal AI results.",
+          "image": "https://outfitry.app/assets/step1.png"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Choose a Style",
+          "text": "Select from style presets like Casual, Formal, Streetwear, or Athletic. The AI uses your preference to guide the outfit generation.",
+          "image": "https://outfitry.app/assets/step2.png"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Generate and Save",
+          "text": "Tap Generate and wait a few seconds. Browse the AI-generated outfit variations and save your favorites to camera roll.",
+          "image": "https://outfitry.app/assets/step3.png"
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
@@ -50,6 +119,8 @@
                         class="breadcrumb__current">How It Works</span></nav>
                 <div class="section-header">
                     <h1 class="section-header__title">How It Works</h1>
+                    <!-- GEO Summary -->
+                    <p class="geo-summary">Using Outfitry to change outfits in photos is simple: 1) Upload a full-body photo from your iPhone camera roll or take a new one, 2) Choose a style preset like Casual, Formal, Streetwear, or Athletic, 3) Tap Generate and wait a few seconds for AI to create outfit variations. Save your favorites to camera roll. Best results come from well-lit photos with plain backgrounds. The app is free to try with 10 generations.</p>
                     <p class="section-header__subtitle">Three simple steps to explore new outfit styles.</p>
                 </div>
             </div>

@@ -42,8 +42,23 @@
   </url>
   <url>
     <loc>https://outfitry.app/blog/</loc>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://outfitry.app/blog/best-ai-outfit-apps-2025.html</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://outfitry.app/blog/ai-fashion-technology-explained.html</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://outfitry.app/blog/perfect-photos-ai-outfit.html</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://outfitry.app/blog/ai-outfit-changer.html</loc>
