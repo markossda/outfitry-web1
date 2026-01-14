@@ -8,8 +8,14 @@
   <title>Outfitry - AI Outfit Generator for iPhone | Change Clothes in Photos</title>
   <meta name="description"
     content="Outfitry is an AI-powered outfit generator for iPhone. Upload a photo, generate outfit variations, and explore new styles instantly. Download free on the App Store.">
+  <meta name="author" content="Outfitry">
+  <meta name="keywords"
+    content="AI outfit generator, virtual try-on, outfit changer app, AI fashion app, iPhone outfit app, change clothes in photos, AI clothing generator, fashion AI">
+  <meta name="theme-color" content="#000000">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://outfitry.app/">
+  <link rel="alternate" hreflang="en" href="https://outfitry.app/">
+  <link rel="alternate" hreflang="x-default" href="https://outfitry.app/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://outfitry.app/">
   <meta property="og:title" content="Outfitry - AI Outfit Generator for iPhone">
@@ -19,6 +25,9 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/assets/styles.css">
   <link rel="icon" type="image/png" href="/assets/outfitry.png">
+  <link rel="apple-touch-icon" href="/assets/outfitry.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="alternate" type="application/rss+xml" title="Outfitry Blog RSS" href="/feed.xml">
   <!-- Organization Schema for GEO -->
   <script type="application/ld+json">
   {
@@ -30,9 +39,9 @@
     "description": "Outfitry is an AI-powered outfit generator app for iPhone. Upload a photo, choose a style, and generate outfit variations in seconds.",
     "foundingDate": "2024",
     "sameAs": [
-      "https://instagram.com/outfitryapp",
-      "https://twitter.com/outfitryapp",
-      "https://linkedin.com/company/outfitry"
+      "https://www.instagram.com/outfitryapp/",
+      "https://x.com/outfitryapp",
+      "https://www.tiktok.com/@outfitryapp"
     ],
     "contactPoint": {
       "@type": "ContactPoint",
@@ -78,6 +87,72 @@
     ]
   }
   </script>
+  <!-- WebSite Schema with SearchAction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Outfitry",
+    "alternateName": ["Outfitry App", "Outfitry AI"],
+    "url": "https://outfitry.app",
+    "description": "AI-powered outfit generator app for iPhone. Upload a photo, choose a style, and generate outfit variations in seconds.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Outfitry",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://outfitry.app/assets/outfitry.png"
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://outfitry.app/faq.html?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
+    "inLanguage": "en"
+  }
+  </script>
+  <!-- SoftwareApplication Schema (Extended) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Outfitry",
+    "applicationCategory": "LifestyleApplication",
+    "applicationSubCategory": "Fashion",
+    "operatingSystem": "iOS 15.6+",
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": "0",
+      "highPrice": "34.99",
+      "priceCurrency": "USD",
+      "offerCount": 3
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "150",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "screenshot": "https://outfitry.app/assets/og-image.svg",
+    "softwareVersion": "1.0",
+    "datePublished": "2024-01-01",
+    "downloadUrl": "https://apps.apple.com/tr/app/outfitry/id6751058891",
+    "installUrl": "https://apps.apple.com/tr/app/outfitry/id6751058891",
+    "featureList": [
+      "AI Virtual Try-On",
+      "30+ Style Presets",
+      "HD Quality Exports",
+      "Fast Processing",
+      "Privacy First"
+    ],
+    "description": "Outfitry is an AI-powered outfit generator for iPhone. Upload a photo, generate outfit variations, and explore new styles instantly."
+  }
+  </script>
 </head>
 
 <body>
@@ -97,6 +172,7 @@
           <li><a href="/how-it-works.html" class="nav__link">How It Works</a></li>
           <li><a href="/faq.html" class="nav__link">FAQ</a></li>
           <li><a href="/blog/" class="nav__link">Blog</a></li>
+          <li><a href="/contact.html" class="nav__link">Contact</a></li>
         </ul>
         <a href="https://apps.apple.com/tr/app/outfitry/id6751058891" class="btn btn-primary btn-sm" target="_blank"
           rel="noopener">Download</a>
@@ -109,49 +185,53 @@
   <main id="main">
     <!-- Hero -->
     <section class="hero">
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
       <div class="container hero__inner">
         <div class="hero__content">
-          <span class="badge badge--primary hero__badge">Available on iOS</span>
+          <span class="badge badge--primary hero__badge">
+            <span class="badge__pulse"></span>
+            Available on iOS
+          </span>
           <h1 class="hero__title">AI Outfit Generator for iPhone</h1>
           <!-- GEO Summary - AI engines extract this -->
-          <p class="geo-summary">Outfitry is the best AI outfit changer app for iPhone. It uses artificial intelligence to generate realistic outfit variations from your photos. Simply upload a full-body photo, select from 30+ style presets like Casual, Formal, or Streetwear, and get AI-generated outfit ideas in seconds. Free to try with 10 generations, Pro plans start at $4.99/month.</p>
+          <p class="geo-summary">Outfitry is the best AI outfit changer app for iPhone. It uses artificial intelligence
+            to generate realistic outfit variations from your photos. Simply upload a full-body photo, select from 30+
+            style presets like Casual, Formal, or Streetwear, and get AI-generated outfit ideas in seconds. Free to try
+            with 10 generations, Pro plans start at $4.99/month.</p>
           <p class="hero__subtitle">Upload a photo, generate outfit variations, and explore new styles instantly.
             Results may vary.</p>
           <div class="hero__cta">
-            <a href="https://apps.apple.com/tr/app/outfitry/id6751058891" class="btn btn-primary btn-lg" target="_blank"
-              rel="noopener">Download on App Store</a>
+            <a href="https://apps.apple.com/tr/app/outfitry/id6751058891" class="btn btn-primary btn-lg btn--glow"
+              target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+              </svg>
+              Download on App Store
+            </a>
             <a href="/features.html" class="btn btn-secondary btn-lg">See Features</a>
           </div>
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <span class="hero__stat-value">30+</span>
+              <span class="hero__stat-label">Style Presets</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-value">5s</span>
+              <span class="hero__stat-label">Generation Time</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-value">4.8★</span>
+              <span class="hero__stat-label">App Store</span>
+            </div>
+          </div>
         </div>
-        <div class="hero__preview">
-          <div class="preview">
-            <div class="preview__header">
-              <div class="preview__dots">
-                <span class="preview__dot preview__dot--red"></span>
-                <span class="preview__dot preview__dot--yellow"></span>
-                <span class="preview__dot preview__dot--green"></span>
-              </div>
-              <span class="preview__title">Outfitry Dashboard</span>
-            </div>
-            <div class="preview__stats">
-              <div class="stat">
-                <div class="stat__label">Looks Generated</div>
-                <div class="stat__value">24</div>
-              </div>
-              <div class="stat">
-                <div class="stat__label">Saved Styles</div>
-                <div class="stat__value">12</div>
-              </div>
-            </div>
-            <div class="preview__section">
-              <div class="preview__section-title">Style Presets</div>
-              <div class="preview__chips">
-                <span class="chip">Casual</span>
-                <span class="chip">Formal</span>
-                <span class="chip">Streetwear</span>
-                <span class="chip">Athletic</span>
-              </div>
-            </div>
+        <div class="hero__visual">
+          <div class="hero__phone-wrapper">
+            <img src="/assets/hero-phone.png"
+              alt="Outfitry AI Outfit Generator app on iPhone showing virtual try-on feature" class="hero__phone-image"
+              loading="eager">
           </div>
         </div>
       </div>
@@ -849,9 +929,12 @@
     <section class="cta-section">
       <div class="container">
         <h2 class="cta-section__title">Ready to Explore New Styles?</h2>
-        <p class="cta-section__text">Download Outfitry free on the App Store.</p>
-        <a href="https://apps.apple.com/tr/app/outfitry/id6751058891" class="btn btn-primary btn-lg" target="_blank"
-          rel="noopener">Download on App Store</a>
+        <p class="cta-section__text">Download Outfitry free on the App Store or get in touch with us.</p>
+        <div class="cta-section__buttons">
+          <a href="https://apps.apple.com/tr/app/outfitry/id6751058891" class="btn btn-primary btn-lg" target="_blank"
+            rel="noopener">Download on App Store</a>
+          <a href="/contact.html" class="btn btn-secondary btn-lg">Contact Us</a>
+        </div>
       </div>
     </section>
   </main>
@@ -869,7 +952,7 @@
             outfit variations in seconds.</p>
           <!-- Social Links -->
           <div class="footer__social">
-            <a href="https://instagram.com/outfitryapp" class="footer__social-link" aria-label="Instagram"
+            <a href="https://www.instagram.com/outfitryapp/" class="footer__social-link" aria-label="Instagram"
               target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect x="2" y="2" width="20" height="20" rx="5" />
@@ -877,19 +960,18 @@
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
               </svg>
             </a>
-            <a href="https://twitter.com/outfitryapp" class="footer__social-link" aria-label="Twitter" target="_blank"
+            <a href="https://x.com/outfitryapp" class="footer__social-link" aria-label="X" target="_blank"
               rel="noopener">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path
-                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
               </svg>
             </a>
-            <a href="https://linkedin.com/company/outfitry" class="footer__social-link" aria-label="LinkedIn"
+            <a href="https://www.tiktok.com/@outfitryapp" class="footer__social-link" aria-label="TikTok"
               target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
-                <rect x="2" y="9" width="4" height="12" />
-                <circle cx="4" cy="4" r="2" />
+                <path
+                  d="M21 7.917v4.034A9.948 9.948 0 0 1 16 10v4.5a6.5 6.5 0 1 1-8 -6.326V12.5a2.5 2.5 0 1 0 4 2v-11h4a5 5 0 0 0 5 4.417Z" />
               </svg>
             </a>
           </div>

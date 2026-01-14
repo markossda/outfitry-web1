@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outfitry Blog - AI Fashion &amp; Virtual Try-On</title>
+    <link>https://outfitry.app/blog/</link>
+    <description>Latest articles about AI outfit generation, virtual try-on technology, and fashion AI for iPhone.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://outfitry.app/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://outfitry.app/assets/outfitry.png</url>
+      <title>Outfitry Blog</title>
+      <link>https://outfitry.app/blog/</link>
+    </image>
+    
+    <item>
+      <title>Best AI Outfit Apps 2025</title>
+      <link>https://outfitry.app/blog/best-ai-outfit-apps-2025.html</link>
+      <description>A comprehensive comparison of the top virtual try-on and AI outfit generator apps for 2025. Discover which app suits your style needs best.</description>
+      <pubDate>Fri, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://outfitry.app/blog/best-ai-outfit-apps-2025.html</guid>
+    </item>
+    
+    <item>
+      <title>AI Fashion Technology Explained</title>
+      <link>https://outfitry.app/blog/ai-fashion-technology-explained.html</link>
+      <description>Learn how AI outfit changers work, the technology behind virtual try-on, and what makes modern fashion AI so powerful.</description>
+      <pubDate>Fri, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://outfitry.app/blog/ai-fashion-technology-explained.html</guid>
+    </item>
+    
+    <item>
+      <title>Perfect Photos for AI Outfit Generation</title>
+      <link>https://outfitry.app/blog/perfect-photos-ai-outfit.html</link>
+      <description>Tips and tricks for taking the perfect photo for AI outfit generation. Get optimal results with proper lighting, angles, and poses.</description>
+      <pubDate>Fri, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://outfitry.app/blog/perfect-photos-ai-outfit.html</guid>
+    </item>
+    
+    <item>
+      <title>AI Outfit Changer: How It Works</title>
+      <link>https://outfitry.app/blog/ai-outfit-changer.html</link>
+      <description>A technical overview of AI outfit changers. Understand the machine learning models and processes that transform your photos.</description>
+      <pubDate>Fri, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://outfitry.app/blog/ai-outfit-changer.html</guid>
+    </item>
+    
+    <item>
+      <title>Virtual Try-On on iPhone</title>
+      <link>https://outfitry.app/blog/virtual-try-on-ios.html</link>
+      <description>iOS-specific guide to virtual try-on apps. Explore features, performance, and best practices for iPhone users.</description>
+      <pubDate>Fri, 10 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://outfitry.app/blog/virtual-try-on-ios.html</guid>
+    </item>
+  </channel>
+</rss>

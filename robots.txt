@@ -1,5 +1,204 @@
-# File: /robots.txt
+# Outfitry robots.txt
+# Website: https://outfitry.app
+# Last Updated: January 2026
+
+# Default rule for all crawlers
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
 
+# Sitemap location
 Sitemap: https://outfitry.app/sitemap.xml
+
+# LLM-specific content for AI assistants
+# See https://outfitry.app/llms.txt for site summary
+# See https://outfitry.app/llms-full.txt for complete content
+
+# ============================================
+# AI CRAWLERS - ALLOWED
+# ============================================
+
+# OpenAI GPTBot
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# OpenAI ChatGPT-User
+User-agent: ChatGPT-User
+Allow: /
+
+# Google Bard / Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# Microsoft Copilot / Bing AI
+User-agent: Bingbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+# Apple Intelligence / Siri
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Common Crawl (used by many AI trainers)
+User-agent: CCBot
+Allow: /
+
+# Other AI assistants
+User-agent: Amazonbot
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: omgili
+Allow: /
+
+User-agent: omgilibot
+Allow: /
+
+# ============================================
+# SEARCH ENGINE CRAWLERS
+# ============================================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Storebot-Google
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# ============================================
+# SOCIAL MEDIA CRAWLERS
+# ============================================
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+# ============================================
+# SEO & ANALYTICS TOOLS
+# ============================================
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+User-agent: DotBot
+Allow: /
+
+# ============================================
+# CRAWL RATE LIMITS
+# ============================================
+
+# Request delay for heavy crawlers (seconds between requests)
+User-agent: GPTBot
+Crawl-delay: 1
+
+User-agent: ClaudeBot
+Crawl-delay: 1
+
+User-agent: CCBot
+Crawl-delay: 2
+
+User-agent: Bytespider
+Crawl-delay: 5
+
+# ============================================
+# ADDITIONAL RESOURCES
+# ============================================
+
+# Human-readable site info
+# https://outfitry.app/humans.txt
+
+# Security contact
+# https://outfitry.app/.well-known/security.txt

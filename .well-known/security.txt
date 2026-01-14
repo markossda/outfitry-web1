@@ -1,0 +1,36 @@
+# Outfitry Security Policy
+# https://outfitry.app/.well-known/security.txt
+
+Contact: mailto:support@outfitry.app
+Expires: 2027-01-31T23:59:59.000Z
+Preferred-Languages: en, tr
+Canonical: https://outfitry.app/.well-known/security.txt
+
+# Security Acknowledgments
+# We appreciate responsible disclosure of security vulnerabilities.
+
+# Scope
+# This security policy applies to:
+# - outfitry.app website
+# - Outfitry iOS application
+# - Associated APIs and services
+
+# Out of Scope
+# - Third-party services (Apple App Store, payment processing)
+# - Social media accounts
+# - Phishing or social engineering attempts
+
+# Guidelines
+# - Provide detailed reports with steps to reproduce
+# - Allow reasonable time for response and fix
+# - Do not access or modify other users' data
+# - Do not disrupt services or other users
+
+# Response Time
+# Initial Response: 48 hours
+# Resolution: Depends on severity, typically 30-90 days
+
+# Policy
+Policy: https://outfitry.app/privacy.html
+
+# Thank you for helping keep Outfitry and our users safe.

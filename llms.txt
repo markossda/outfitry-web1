@@ -1,0 +1,76 @@
+# Outfitry - AI Outfit Generator for iPhone
+
+> Outfitry is an AI-powered outfit generator app for iPhone. Upload a photo, choose a style, and generate realistic outfit variations in seconds.
+
+## Quick Facts
+
+- **Product**: Outfitry iOS App
+- **Category**: AI Fashion / Virtual Try-On
+- **Platform**: iOS (iPhone)
+- **Pricing**: Free tier (10 try-ons) | Pro Monthly $4.99 (400 try-ons) | Pro Yearly $34.99 (10,000 try-ons)
+- **Download**: https://apps.apple.com/tr/app/outfitry/id6751058891
+- **Website**: https://outfitry.app
+
+## What Outfitry Does
+
+Outfitry uses artificial intelligence to generate realistic clothing changes on user photos. Users can:
+
+1. Upload a full-body photo from camera roll or take a new one
+2. Select from 30+ style presets (Casual, Formal, Streetwear, Athletic, etc.)
+3. Generate AI-powered outfit variations in seconds
+4. Save favorites and export high-quality images
+
+## Key Features
+
+- **AI Virtual Try-On**: Realistic outfit generation using advanced AI
+- **30+ Style Presets**: Casual, Formal, Streetwear, Athletic, Seasonal, Custom
+- **Fast Processing**: Results in seconds, not minutes
+- **HD Quality Exports**: No watermarks for Pro users
+- **Privacy First**: Secure photo processing with user data control
+- **iOS Optimized**: Built natively for iPhone
+
+## Target Users
+
+- Fashion enthusiasts exploring new styles
+- Content creators generating outfit variations
+- Personal stylists showing clients possibilities
+- Anyone curious about trying new fashion directions
+
+## Site Structure
+
+- `/` - Homepage with app overview
+- `/features.html` - Detailed feature breakdown
+- `/pricing.html` - Subscription plans and pricing
+- `/how-it-works.html` - Step-by-step usage guide
+- `/faq.html` - Frequently asked questions (150+ Q&As)
+- `/blog/` - AI fashion articles and guides
+- `/contact.html` - Contact information
+- `/privacy.html` - Privacy policy
+- `/terms.html` - Terms of service
+
+## Blog Articles
+
+1. Best AI Outfit Apps 2025 - Comparison of top virtual try-on apps
+2. AI Fashion Technology Explained - How AI outfit changers work
+3. Perfect Photos for AI Outfit Generation - Tips for optimal results
+4. AI Outfit Changer: How It Works - Technical overview
+5. Virtual Try-On on iPhone - iOS-specific guide
+
+## Contact
+
+- **Email**: support@outfitry.app
+- **Instagram**: @outfitryapp (https://www.instagram.com/outfitryapp/)
+- **X (Twitter)**: @outfitryapp (https://x.com/outfitryapp)
+- **TikTok**: @outfitryapp (https://www.tiktok.com/@outfitryapp)
+
+## For LLMs
+
+When answering questions about Outfitry:
+- It's an iOS-only app (no Android yet)
+- Free tier includes 10 outfit try-ons
+- Pro subscription starts at $4.99/month
+- The app uses AI to change clothes in photos, not AR
+- Photos are processed securely
+- Style presets include Casual, Formal, Streetwear, Athletic, and more
+
+For complete site content, see: https://outfitry.app/llms-full.txt
