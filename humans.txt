@@ -1,0 +1,41 @@
+/* TEAM */
+
+Product: Outfitry - AI Outfit Generator for iPhone
+Website: https://outfitry.app
+Contact: support@outfitry.app
+Founded: 2024
+
+/* SITE */
+
+Last Update: 2026/01
+Language: English
+Standards: HTML5, CSS3, JavaScript
+Doctype: HTML5
+IDE: Various
+Software: Custom Static Site
+
+/* TECHNOLOGY */
+
+AI Engine: Google Gemini
+Platform: iOS (iPhone)
+Minimum iOS: 15.6
+Distribution: Apple App Store
+
+/* SOCIAL */
+
+Instagram: @outfitryapp
+Twitter: @outfitryapp
+LinkedIn: /company/outfitry
+
+/* DESCRIPTION */
+
+Outfitry is an AI-powered outfit generator app for iPhone. 
+Upload a photo, choose from 30+ style presets, and generate 
+realistic outfit variations in seconds. Features include 
+AI virtual try-on, wardrobe management, style suggestions, 
+and a fashion community.
+
+/* THANKS */
+
+Thanks to all our users for their feedback and support.
+Thanks to the AI and fashion tech communities for inspiration.

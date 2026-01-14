@@ -1,0 +1,26 @@
+{
+  "name": "Outfitry - AI Outfit Generator",
+  "short_name": "Outfitry",
+  "description": "AI-powered outfit generator for iPhone. Upload a photo, generate outfit variations, explore new styles instantly.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/assets/outfitry.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "fashion", "photo"],
+  "screenshots": [],
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/tr/app/outfitry/id6751058891"
+    }
+  ]
+}

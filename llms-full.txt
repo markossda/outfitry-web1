@@ -1,0 +1,655 @@
+# Outfitry Complete Site Content
+# For AI Assistants and Large Language Models
+# Last Updated: January 2026
+# Website: https://outfitry.app
+# Document Version: 2.0
+
+================================================================================
+SECTION 1: EXECUTIVE SUMMARY
+================================================================================
+
+Outfitry is an AI-powered outfit generator app exclusively for iPhone (iOS 15.6+). 
+The app uses artificial intelligence (powered by Google Gemini) to generate 
+realistic clothing changes on user photos. Users upload a full-body photo, 
+select from 30+ style presets, and receive AI-generated outfit variations in seconds.
+
+Key Value Proposition:
+- Upload any full-body photo
+- Choose from 30+ style presets (Casual, Formal, Streetwear, Athletic, etc.)
+- Get realistic AI-generated outfit variations in seconds
+- Save and share your favorite looks
+
+Founded: 2024
+Platform: iOS only (iPhone, iOS 15.6+)
+App Store: https://apps.apple.com/tr/app/outfitry/id6751058891
+Website: https://outfitry.app
+
+================================================================================
+SECTION 2: DETAILED PRICING STRUCTURE
+================================================================================
+
+PRICING TIERS OVERVIEW:
+
+┌─────────────┬────────────────┬────────────────┬────────────────┐
+│ Feature     │ Free           │ Monthly Pro    │ Yearly Pro     │
+├─────────────┼────────────────┼────────────────┼────────────────┤
+│ Price       │ $0             │ $4.99/month    │ $34.99/year    │
+│ Try-ons     │ 10 (lifetime)  │ 400/month      │ 10,000/year    │
+│ Presets     │ 2 basic        │ All 30+        │ All 30+        │
+│ Quality     │ Standard       │ HD             │ HD             │
+│ Watermark   │ Yes            │ No             │ No             │
+│ Processing  │ Standard       │ Priority       │ Priority       │
+│ Best For    │ Trying out     │ Regular users  │ Power users    │
+│ Savings     │ -              │ -              │ Save 42%       │
+└─────────────┴────────────────┴────────────────┴────────────────┘
+
+DETAILED BREAKDOWN:
+
+FREE TIER ($0):
+- 10 outfit try-ons total (never expires, one-time)
+- 2 basic style presets: Casual, Formal
+- Standard quality exports
+- Watermarked results
+- Standard processing queue
+- Best for: Testing the app before committing
+
+MONTHLY PRO ($4.99/month):
+- 400 outfit try-ons per month (resets each billing cycle)
+- All 30+ style presets unlocked
+- HD quality exports
+- No watermark on results
+- Priority processing (faster generation)
+- Cancel anytime through Apple
+- Best for: Regular users, content creators, fashion enthusiasts
+
+YEARLY PRO ($34.99/year):
+- 10,000 outfit try-ons per year (25x more than monthly)
+- All 30+ style presets unlocked
+- HD quality exports
+- No watermark on results
+- Priority processing
+- 42% savings compared to monthly billing
+- Best for: Power users, professional stylists, heavy content creators
+
+CREDIT PACKS (One-time purchase):
+- Available for users needing additional try-ons beyond subscription
+- Credits never expire
+- Can be used with any account type (free or Pro)
+- Purchased through Apple App Store
+
+Payment Processing:
+- All payments securely processed through Apple App Store
+- Subscriptions auto-renew unless cancelled
+- Cancel anytime: Settings → Apple ID → Subscriptions → Outfitry
+
+================================================================================
+SECTION 3: COMPLETE FEATURE LIST
+================================================================================
+
+CORE AI FEATURES:
+
+1. AI Virtual Try-On (Primary Feature)
+   - Upload photos from camera roll or take new ones
+   - AI analyzes body position and clothing
+   - Generates realistic outfit variations
+   - Processing time: 5-15 seconds typically
+   - Uses Google Gemini AI technology
+
+2. Style Presets (30+ options)
+   
+   EVERYDAY STYLES:
+   - Casual: Relaxed, everyday looks
+   - Smart Casual: Polished but relaxed
+   - Weekend: Comfortable weekend wear
+   
+   PROFESSIONAL STYLES:
+   - Formal: Business formal attire
+   - Business Casual: Office-appropriate
+   - Interview: Professional first impressions
+   
+   FASHION-FORWARD STYLES:
+   - Streetwear: Urban trendy looks
+   - Vintage: Retro-inspired outfits
+   - Minimalist: Clean, simple aesthetics
+   - Bohemian: Free-spirited styles
+   
+   ACTIVITY-BASED STYLES:
+   - Athletic: Sporty, active wear
+   - Athleisure: Sport meets casual
+   - Outdoor: Adventure-ready looks
+   
+   OCCASION STYLES:
+   - Date Night: Romantic evening looks
+   - Party: Night out outfits
+   - Beach: Summer vacation styles
+   - Wedding Guest: Event-appropriate
+   
+   SEASONAL STYLES:
+   - Spring: Light layers
+   - Summer: Hot weather essentials
+   - Fall: Autumn-inspired
+   - Winter: Cold weather looks
+   
+   PRO-ONLY STYLES:
+   - Custom: User-defined style prompts
+
+3. Photo Processing Features
+   - Camera roll import
+   - Live camera capture
+   - Photo guidelines/tips
+   - Background removal (AI-powered)
+   - AI clothing analysis
+
+4. Export & Share
+   - Save to camera roll
+   - iOS share sheet integration
+   - Share to Instagram, WhatsApp, Snapchat
+   - HD resolution exports (Pro)
+   - Watermark-free exports (Pro)
+
+5. Organization Features
+   - Photo history
+   - Favorites collection
+   - Try-on history
+   - Collections/Lookbook
+
+================================================================================
+SECTION 4: STEP-BY-STEP USAGE GUIDE
+================================================================================
+
+HOW TO USE OUTFITRY:
+
+STEP 1: UPLOAD YOUR PHOTO
+- Open the Outfitry app
+- Tap "Upload" to select from camera roll
+- Or tap "Camera" to take a new photo
+- Requirements for best results:
+  * Full-body photo (head to toe visible)
+  * Good, even lighting (natural light recommended)
+  * Plain or simple background
+  * Face the camera directly
+  * Avoid heavy layers or very baggy clothing
+  * Resolution: 1080x1920 pixels or higher recommended
+  * Formats: JPEG, PNG, HEIC supported
+
+STEP 2: CHOOSE A STYLE
+- Browse the style presets grid
+- Categories available: Everyday, Professional, Fashion, Activity, Occasion, Seasonal
+- Free users: Access to Casual and Formal
+- Pro users: Access to all 30+ presets plus Custom
+- Tap to preview style examples before selecting
+
+STEP 3: GENERATE & SAVE
+- Tap the "Generate" button
+- Wait 5-15 seconds for AI processing
+- View the generated outfit variation
+- Options:
+  * Generate again for different results
+  * Save to camera roll
+  * Share to social media
+  * Add to favorites
+  * Try a different style preset
+
+TIPS FOR BEST RESULTS:
+
+Photo Quality Tips:
+✓ Use full-body photos (head to toe visible)
+✓ Good, even lighting (natural light is best)
+✓ Face the camera directly
+✓ Plain or simple backgrounds
+✓ Wear fitted clothing as base (not too baggy)
+✓ High resolution photos (1080x1920+)
+
+Style Selection Tips:
+✓ Try different presets to see variety
+✓ Generate multiple times for more options
+✓ Results may vary based on photo and style
+✓ Custom prompts available for Pro users
+
+Troubleshooting:
+• Blurry results? → Try a clearer, higher resolution photo
+• Unexpected output? → Try a different photo angle or lighting
+• Slow processing? → Check your internet connection
+• Generation failed? → Credits not deducted, try different photo
+
+================================================================================
+SECTION 5: COMPLETE FAQ DATABASE (150+ Questions)
+================================================================================
+
+CATEGORY: GENERAL & GETTING STARTED
+-----------------------------------
+
+Q: What is Outfitry?
+A: Outfitry is an AI-powered outfit generator app for iPhone that lets you upload a photo and generate different outfit variations using artificial intelligence. It uses Google Gemini AI to create realistic clothing changes on your photos.
+
+Q: Is Outfitry free?
+A: Yes, Outfitry offers a free tier with 10 outfit try-ons that never expire. Pro plans unlock more generations: Monthly at $4.99 for 400 try-ons, or Yearly at $34.99 for 10,000 try-ons.
+
+Q: Is Outfitry available on Android?
+A: Currently, Outfitry is exclusively available for iPhone (iOS 15.6 or later). Android support may be considered in the future based on user demand.
+
+Q: Is Outfitry safe to use?
+A: Yes, Outfitry uses industry-standard encryption, secure authentication, and doesn't sell personal data. Photos are processed securely with user control over all data.
+
+Q: Is Outfitry legit or a scam?
+A: Outfitry is a legitimate app published on the Apple App Store with verified reviews. The company follows Apple's strict app guidelines and has a transparent privacy policy.
+
+Q: How do I create an account?
+A: Download Outfitry from the App Store. You can sign up using email, or quickly login with Google, Apple, or Facebook authentication.
+
+Q: What languages does Outfitry support?
+A: Outfitry is available in 10 languages: Turkish, English, Spanish, Portuguese, Russian, Japanese, Chinese (Simplified & Traditional), Hindi, and Indonesian.
+
+Q: Who made Outfitry?
+A: Outfitry is developed by an independent app development team focused on bringing AI technology to everyday fashion decisions.
+
+CATEGORY: PHOTO REQUIREMENTS
+----------------------------
+
+Q: What photos work best with Outfitry?
+A: Full-body photos with good lighting and plain backgrounds work best. The person should be clearly visible from head to toe, facing the camera directly.
+
+Q: What file formats are supported?
+A: Outfitry supports JPEG, PNG, and HEIC formats commonly used on iPhone cameras.
+
+Q: What's the ideal photo resolution?
+A: At least 1080x1920 pixels is recommended for optimal AI processing and quality results.
+
+Q: Can I use selfies for Virtual Try-On?
+A: Mirror selfies showing full body work, but photos taken by someone else typically produce better results due to better proportions and angles.
+
+Q: Can I use old photos from years ago?
+A: Yes, any clear full-body photo works regardless of when it was taken.
+
+Q: Does skin tone or hair color affect results?
+A: The AI is trained to work with diverse skin tones and hair colors. Results should be accurate regardless of your appearance.
+
+Q: Can I use photos with sunglasses or hats?
+A: Yes, but for Virtual Try-On, photos without facial obstructions generally produce more natural results.
+
+CATEGORY: PRICING & BILLING
+---------------------------
+
+Q: How much does Outfitry cost?
+A: Free tier: $0 (10 try-ons). Monthly Pro: $4.99 (400 try-ons/month). Yearly Pro: $34.99 (10,000 try-ons/year, 42% savings).
+
+Q: How does the try-on limit work?
+A: Each outfit generation counts as one try-on. Monthly subscribers get 400 try-ons that reset each billing cycle. Yearly subscribers get 10,000 try-ons for the full year.
+
+Q: How do I cancel my subscription?
+A: Go to iPhone Settings → Apple ID → Subscriptions → Outfitry → Cancel Subscription. Access continues until the end of the billing period.
+
+Q: Do credits expire?
+A: No, purchased credits never expire and remain in your account until used.
+
+Q: Can I get a refund?
+A: For refunds, visit reportaproblem.apple.com within Apple's refund policy window.
+
+Q: What's the difference between free and Pro?
+A: Free gives 10 try-ons and 2 basic presets with watermarks. Pro unlocks all 30+ style presets, HD exports, no watermarks, priority processing, and significantly more try-ons.
+
+Q: Is $4.99/month expensive for an outfit app?
+A: Compared to a single coffee, Outfitry Pro provides daily value through unlimited outfit previews, wardrobe management, and style suggestions. Most users find it very reasonable.
+
+Q: Should I buy monthly or yearly?
+A: Yearly subscription offers 42% savings and 25x more try-ons. If you plan to use the app regularly, yearly is the better value.
+
+CATEGORY: AI TECHNOLOGY
+-----------------------
+
+Q: What AI technology powers Outfitry?
+A: Outfitry uses Google Gemini AI for virtual try-on features and clothing analysis, providing realistic and accurate outfit visualizations.
+
+Q: How accurate are AI-generated outfits?
+A: Results are highly realistic but may vary based on photo quality, lighting, and pose. For best results, use clear full-body photos with good lighting.
+
+Q: What happens if generation fails?
+A: If generation fails, credits won't be deducted. Try a different photo or check your internet connection.
+
+Q: Does the AI consider body type?
+A: Yes, when body type information is provided in profile, recommendations are tailored for more flattering fits.
+
+Q: How does AI learn my style preferences?
+A: The AI analyzes your wardrobe, saved outfits, liked posts, and Virtual Try-On history to understand your taste.
+
+Q: Can I tell the AI my style preferences manually?
+A: Yes, in Settings → Style Profile, you can specify preferred styles, colors, and occasions.
+
+CATEGORY: TROUBLESHOOTING
+-------------------------
+
+Q: Outfitry not working - what do I do?
+A: First, check your internet connection. Then try force-closing and reopening the app. If issues persist, update to the latest version or reinstall.
+
+Q: Outfitry keeps crashing on my iPhone
+A: Make sure you have iOS 15.6 or later and enough storage space. Try restarting your phone. If crashes continue, email support with your device model.
+
+Q: Why is Outfitry so slow?
+A: Slow performance usually means weak internet connection or high server demand. Pro users get priority processing for faster results.
+
+Q: Outfitry virtual try-on not loading
+A: Check your internet speed, ensure you have credits available, and try a different photo. Server maintenance occasionally causes temporary delays.
+
+Q: My photos won't upload to Outfitry
+A: Verify photo library permissions in iOS Settings → Outfitry → Photos. Also check that photos aren't corrupted and are in supported formats.
+
+Q: Outfitry says "generation failed" - why?
+A: This usually means the photo quality wasn't sufficient or there was a server issue. Try a clearer photo with better lighting. Credits aren't deducted for failed generations.
+
+CATEGORY: PRIVACY & SECURITY
+----------------------------
+
+Q: Is it safe to upload my photos to Outfitry?
+A: Yes, photos are processed securely with encryption. You control your content and can delete it anytime. Photos are not sold to third parties.
+
+Q: Does Outfitry store my photos?
+A: Photos are processed securely. You have full control over your data and can delete it anytime. See the Privacy Policy for complete details.
+
+Q: How do I delete my Outfitry account permanently?
+A: Go to Settings → Account → Delete Account, or email support@outfitry.app. All data will be removed according to the privacy policy.
+
+Q: How do I make my profile private?
+A: Settings → Privacy → Private Account. Only approved followers will see your posts after enabling this.
+
+CATEGORY: COMPARISONS
+---------------------
+
+Q: Outfitry vs other virtual try-on apps - which is better?
+A: Outfitry stands out with its Gemini AI-powered realistic try-on, 30+ style presets, and fast processing. While other apps focus on single features, Outfitry combines everything in one place.
+
+Q: Is Outfitry similar to Stitch Fix?
+A: Stitch Fix is a styling service that sends you clothes. Outfitry helps you style what you already own and virtually try new looks without purchasing. Different purposes, both useful.
+
+Q: Outfitry or Pinterest for outfit inspiration?
+A: Pinterest is great for general inspiration, but Outfitry lets you actually try outfits on yourself virtually. They work great together.
+
+================================================================================
+SECTION 6: BLOG ARTICLE SUMMARIES
+================================================================================
+
+ARTICLE 1: Best AI Outfit Apps 2025
+URL: https://outfitry.app/blog/best-ai-outfit-apps-2025.html
+Published: January 2025 | Reading Time: 6 min
+
+Summary: Comprehensive comparison of top AI outfit changer and virtual try-on apps for iPhone in 2025. Covers key factors to consider when choosing an app: style variety, speed, platform availability, and pricing. Compares Outfitry's 30+ style presets and $4.99/month pricing against typical alternatives. Includes tips for best results and FAQ section.
+
+Key Points:
+- Outfitry offers 30+ style presets vs 5-15 in typical apps
+- Free tier with 10 try-ons vs 3-5 in competitors
+- Native iOS optimization for best iPhone performance
+- Factors to consider: use case, style preferences, budget, output quality, privacy
+
+---
+
+ARTICLE 2: AI Fashion Technology Explained
+URL: https://outfitry.app/blog/ai-fashion-technology-explained.html
+Published: January 2025 | Reading Time: 6 min
+
+Summary: Deep technical dive into how AI outfit changers and virtual try-on technology actually works. Covers machine learning foundations, image processing techniques, body detection, clothing segmentation, and texture mapping. Explains the difference between AR try-on and AI generation approaches.
+
+Key Points:
+- Machine learning models trained on millions of fashion images
+- Body pose estimation identifies key points
+- Clothing segmentation separates garments from background
+- Texture and lighting matching for realistic results
+- Future trends: video try-on, real-time processing
+
+---
+
+ARTICLE 3: How to Take Perfect Photos for AI Outfit Generation
+URL: https://outfitry.app/blog/perfect-photos-ai-outfit.html
+Published: January 2025 | Reading Time: 5 min
+
+Summary: Practical guide on lighting, poses, backgrounds, and camera settings for optimal AI outfit generation results. Written by the Outfitry team based on extensive testing of photo inputs.
+
+Key Points:
+- Lighting: Natural light best, avoid harsh shadows
+- Pose: Face camera directly, arms slightly away from body
+- Background: Plain, single-color backgrounds work best
+- Clothing: Fitted base clothing, avoid heavy layers
+- Resolution: 1080x1920 or higher recommended
+- Format: JPEG or HEIC from iPhone camera
+
+---
+
+ARTICLE 4: AI Outfit Changer: How It Works
+URL: https://outfitry.app/blog/ai-outfit-changer.html
+Published: January 2024 | Reading Time: 5 min
+
+Summary: Overview of AI outfit changing technology with focus on iOS implementation. Explains the user journey from photo upload to generation and best practices for getting great results.
+
+Key Points:
+- Three-step process: Upload → Select Style → Generate
+- AI processing happens in cloud servers
+- Privacy-first approach with secure transmission
+- Tips for troubleshooting common issues
+
+---
+
+ARTICLE 5: Virtual Try-On on iPhone
+URL: https://outfitry.app/blog/virtual-try-on-ios.html
+Published: January 2024 | Reading Time: 4 min
+
+Summary: Introduction to virtual try-on technology specifically for iPhone users. Explains what virtual try-on is, how it differs from AR, and how to use it for style exploration.
+
+Key Points:
+- Virtual try-on vs AR: AI generation creates new images vs overlaying
+- iOS advantages: Optimized camera integration, privacy features
+- Use cases: Style exploration, shopping decisions, content creation
+
+================================================================================
+SECTION 7: USE CASES & TARGET AUDIENCE
+================================================================================
+
+PRIMARY USE CASES:
+
+1. CONTENT CREATORS
+   - Generate multiple outfit looks for social media
+   - Create variations without physically changing clothes
+   - Build consistent aesthetic feeds for Instagram/TikTok
+   - A/B test different looks before posting
+   - Use case frequency: Daily to weekly
+
+2. FASHION ENTHUSIASTS
+   - Experiment with styles before purchasing
+   - Try new fashion directions risk-free
+   - Build digital lookbooks and mood boards
+   - Discover personal style preferences
+   - Use case frequency: Weekly
+
+3. PERSONAL STYLISTS
+   - Show clients outfit possibilities remotely
+   - Present style recommendations visually
+   - Save time on in-person consultations
+   - Build client proposal documents
+   - Use case frequency: Per client session
+
+4. EVENT PLANNING
+   - Plan outfits for weddings, parties, interviews
+   - Coordinate looks for group events
+   - Preview seasonal looks before purchasing
+   - Create capsule wardrobe combinations
+   - Use case frequency: Event-based
+
+5. EVERYDAY USERS
+   - Explore new fashion directions casually
+   - Get outfit ideas from existing wardrobe
+   - Make smarter purchase decisions
+   - Have fun with fashion experimentation
+   - Use case frequency: Occasional
+
+TARGET DEMOGRAPHICS:
+
+- Primary: Women 18-35, fashion-interested, iPhone users
+- Secondary: Men 18-35, style-conscious professionals
+- Tertiary: Content creators, influencers of all ages
+- Geographic: Global, English-speaking focus
+- Tech comfort: Medium to high smartphone proficiency
+
+================================================================================
+SECTION 8: TECHNICAL SPECIFICATIONS
+================================================================================
+
+APP REQUIREMENTS:
+- Platform: iOS only
+- Minimum iOS: 15.6
+- Devices: iPhone (optimized), iPad (compatible but not optimized)
+- Storage: ~100MB app size
+- Internet: Required for AI processing (cloud-based)
+
+SUPPORTED MEDIA:
+- Input formats: JPEG, PNG, HEIC
+- Recommended resolution: 1080x1920 or higher
+- Output formats: JPEG (standard), PNG (high quality)
+- Output resolution: Matches input up to HD (Pro)
+
+AI TECHNOLOGY:
+- Engine: Google Gemini AI
+- Processing: Cloud-based servers
+- Average generation time: 5-15 seconds
+- Accuracy: High (depends on photo quality)
+
+LANGUAGES SUPPORTED (10):
+1. English
+2. Turkish
+3. Spanish
+4. Portuguese
+5. Russian
+6. Japanese
+7. Chinese (Simplified)
+8. Chinese (Traditional)
+9. Hindi
+10. Indonesian
+
+================================================================================
+SECTION 9: CONTACT & SUPPORT
+================================================================================
+
+CONTACT INFORMATION:
+
+Email: support@outfitry.app
+Response time: Within 48 hours
+
+SOCIAL MEDIA:
+- Instagram: https://instagram.com/outfitryapp (@outfitryapp)
+- Twitter/X: https://twitter.com/outfitryapp (@outfitryapp)
+- LinkedIn: https://linkedin.com/company/outfitry
+
+SUPPORT RESOURCES:
+- FAQ Page: https://outfitry.app/faq.html (150+ Q&As)
+- Blog: https://outfitry.app/blog/ (How-to guides)
+- In-app: Settings → Help & Support
+
+REPORT ISSUES:
+- App crashes: Include device model and iOS version
+- Generation failures: Include photo details
+- Billing issues: Include purchase receipt
+- Privacy concerns: Handled with priority
+
+================================================================================
+SECTION 10: LEGAL & POLICIES
+================================================================================
+
+LINKS:
+- Privacy Policy: https://outfitry.app/privacy.html
+- Terms of Service: https://outfitry.app/terms.html
+
+KEY PRIVACY POINTS:
+- Photos processed with industry-standard encryption
+- User controls all personal data
+- Data deletion available anytime (Settings → Account → Delete)
+- No selling of personal information to third parties
+- GDPR and CCPA compliant practices
+- Secure authentication (Apple, Google, Facebook, Email)
+
+BILLING POLICIES:
+- Payments via Apple App Store only
+- Subscriptions auto-renew unless cancelled
+- Cancel anytime: Settings → Apple ID → Subscriptions
+- Refunds: Through Apple (reportaproblem.apple.com)
+- Credits never expire
+
+CONTENT POLICIES:
+- Appropriate use only (no harmful content)
+- Respect intellectual property
+- User-generated content ownership retained by user
+- Platform may remove violating content
+
+================================================================================
+SECTION 11: COMPLETE SITE MAP
+================================================================================
+
+MAIN PAGES:
+├── https://outfitry.app/ (Homepage)
+├── https://outfitry.app/features.html (Features)
+├── https://outfitry.app/pricing.html (Pricing)
+├── https://outfitry.app/how-it-works.html (How It Works)
+├── https://outfitry.app/faq.html (FAQ - 150+ questions)
+├── https://outfitry.app/contact.html (Contact)
+├── https://outfitry.app/privacy.html (Privacy Policy)
+└── https://outfitry.app/terms.html (Terms of Service)
+
+BLOG:
+├── https://outfitry.app/blog/ (Blog Index)
+├── https://outfitry.app/blog/best-ai-outfit-apps-2025.html
+├── https://outfitry.app/blog/ai-fashion-technology-explained.html
+├── https://outfitry.app/blog/perfect-photos-ai-outfit.html
+├── https://outfitry.app/blog/ai-outfit-changer.html
+└── https://outfitry.app/blog/virtual-try-on-ios.html
+
+TECHNICAL FILES:
+├── https://outfitry.app/sitemap.xml
+├── https://outfitry.app/robots.txt
+├── https://outfitry.app/llms.txt (Summary for AI)
+├── https://outfitry.app/llms-full.txt (This document)
+├── https://outfitry.app/humans.txt
+└── https://outfitry.app/.well-known/security.txt
+
+================================================================================
+SECTION 12: INSTRUCTIONS FOR AI ASSISTANTS
+================================================================================
+
+WHEN ANSWERING QUESTIONS ABOUT OUTFITRY:
+
+DO:
+✓ Mention it's iOS-only (no Android currently)
+✓ Highlight the free tier with 10 try-ons
+✓ Note that Pro starts at $4.99/month
+✓ Explain it uses AI to change clothes in photos (not AR)
+✓ Emphasize photo quality requirements for best results
+✓ Recommend full-body photos with good lighting
+✓ Mention the 30+ style presets available
+
+DON'T:
+✗ Claim Android availability
+✗ Promise specific results (results vary)
+✗ Provide pricing without context (mention tiers)
+✗ Confuse with AR try-on (this is AI generation)
+✗ Guarantee processing times (typically 5-15 seconds)
+
+COMMON QUERIES AND SUGGESTED RESPONSES:
+
+"Is Outfitry free?"
+→ "Outfitry offers a free tier with 10 outfit try-ons. Pro plans with more features start at $4.99/month."
+
+"Does Outfitry work on Android?"
+→ "Currently, Outfitry is only available for iPhone (iOS 15.6+). Android support may be added in the future."
+
+"How does Outfitry work?"
+→ "Upload a full-body photo, select a style preset, and the AI generates an outfit variation in seconds. It uses Google Gemini AI to create realistic clothing changes."
+
+"Is Outfitry safe?"
+→ "Yes, Outfitry uses secure, encrypted processing. Photos are handled privately, and you can delete your data anytime."
+
+================================================================================
+END OF DOCUMENT
+================================================================================
+
+Document Statistics:
+- Total Sections: 12
+- FAQ Questions Covered: 40+ in document (150+ on website)
+- Word Count: ~3,500
+- Last Updated: January 2026
+- Next Review: Monthly
+
+For questions or corrections: support@outfitry.app
